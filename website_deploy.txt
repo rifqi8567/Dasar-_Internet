@@ -1,0 +1,105 @@
+MELUNCURKAN website
+
+slide
+https://docs.google.com/presentation/d/1iG7s3vEutE_knYTqhG9aF04rB-VhZHG5uDAiV41b5v4/edit?slide=id.p#slide=id.p
+
+🌐 Apa itu Meluncurkan Website?
+Meluncurkan website (atau dalam bahasa kerennya: “website launch”) adalah proses membuat website yang sudah dibuat bisa diakses publik lewat internet.
+
+Jadi intinya, dari lokal → ke online
+Dari "hanya kamu yang bisa lihat" → jadi semua orang bisa akses lewat alamat kayak www.namasitus.com
+
+
+🚀 Langkah-langkah Meluncurkan Website:
+Pastikan Website Siap
+
+Semua halaman dan fitur udah berfungsi (frontend & backend)
+
+Nggak ada error besar (udah dites dulu)
+
+Beli Domain
+
+Domain adalah alamat website kamu di internet
+Contoh: tokopedia.com, rifkystore.id, dll
+
+Bisa beli di: Niagahoster, Domainesia, Google Domains, dll
+
+Pilih Hosting
+
+Hosting adalah tempat nyimpen file website kamu
+
+Bisa pakai: Hostinger, Vercel, Netlify, Heroku, VPS, dll
+
+Upload Project ke Hosting
+
+Untuk frontend saja: bisa pakai Netlify, Vercel (gratis)
+
+Untuk backend + database: bisa pakai VPS, cPanel, Render, atau Firebase tergantung jenis backend-mu
+
+Hubungkan Domain ke Hosting
+
+Biar www.namasitus.com bisa mengarah ke project kamu
+
+Tes Website Secara Online
+
+Coba buka lewat HP, laptop, pastikan semua lancar
+
+Cek juga SEO, kecepatan, dan keamanan (pakai SSL)
+
+
+
+🔥 Apa itu DevOps?
+DevOps adalah singkatan dari Development (Dev) dan Operations (Ops).
+Ini adalah budaya, metode, dan praktik yang menggabungkan tim pengembang (developer) dan tim operasional (operations) supaya bisa:
+
+Mengembangkan software lebih cepat
+
+Menguji dan deploy aplikasi secara otomatis dan lancar
+
+Memastikan aplikasi stabil dan bisa diandalkan saat digunakan user
+
+
+
+🎯 Tujuan DevOps:
+Mempercepat proses pengembangan software
+
+Meminimalkan kesalahan saat deploy aplikasi
+
+Otomatisasi proses build, test, dan deploy
+
+Kolaborasi erat antara developer dan tim operasional
+
+Monitoring aplikasi secara real-time
+
+
+🛠️ Tools yang biasa dipakai di DevOps:
+
+| Fungsi                 | Contoh Tools                       |
+| ---------------------- | ---------------------------------- |
+| Version Control        | Git, GitHub, GitLab                |
+| Continuous Integration | Jenkins, GitHub Actions, Travis CI |
+| Containerization       | Docker                             |
+| Orchestration          | Kubernetes                         |
+| Infrastructure as Code | Terraform, Ansible                 |
+| Monitoring & Logging   | Prometheus, Grafana, ELK Stack     |
+| Cloud Platforms        | AWS, Azure, Google Cloud           |
+
+
+
+🔄 Contoh Proses DevOps:
+Developer push code ke repository Git
+
+Sistem otomatis build dan test kode (CI)
+
+Jika sukses, sistem otomatis deploy ke server (CD)
+
+Tim operasi monitoring aplikasi secara real-time
+
+Jika ada error, tim DevOps langsung tahu dan bisa perbaiki cepat
+
+
+Jadi singkatnya:
+DevOps itu jembatan antara programmer dan admin server supaya software bisa dirilis dengan cepat, aman, dan mudah di-maintain.
+
+
+

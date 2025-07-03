@@ -1,0 +1,213 @@
+data base
+adalah sekumpulun data yg di simpan secara sistematis di dalam computer utk dpt di olah di manipulasi atau di olah
+data base sangat penting utk meneglola data lebih mudah dan membantu user utk membuat web atau apk dlm hal CRUD
+
+slide
+https://docs.google.com/presentation/d/1g9mUctKEM4V9CsSKY1a7cNK5NvyQSiV2udc0bodM8Q0/edit?slide=id.gaddd14ad45_0_5#slide=id.gaddd14ad45_0_5
+
+📌 Bisa diibaratkan seperti:
+
+Lemari arsip digital yang menyimpan berbagai informasi penting secara rapi dan terorganisir.
+
+
+📦 Gambaran Virtual Sederhana (Struktur Dasar)
+
+Database: SIMPANYUK_DB
+│
+├── Table: Users
+│   ┌────┬───────────────┬─────────────┐
+│   │ ID │ Name          │ Email       │
+│   ├────┼───────────────┼─────────────┤
+│   │ 1  │ Rifqi         │ rifqi@...   │
+│   │ 2  │ Mikasa        │ mikasa@...  │
+│   └────┴───────────────┴─────────────┘
+│
+├── Table: Products
+│   ┌────┬───────────────┬─────────────┐
+│   │ ID │ Name          │ Price       │
+│   ├────┼───────────────┼─────────────┤
+│   │ 1  │ Laptop ASUS   │ 8.000.000   │
+│   │ 2  │ Sepatu Nike   │ 1.200.000   │
+│   └────┴───────────────┴─────────────┘
+│
+└── Table: Orders
+    ┌────┬────────┬────────────┐
+    │ ID │ UserID │ ProductID  │
+    ├────┼────────┼────────────┤
+    │ 1  │   1    │     2      │
+    │ 2  │   2    │     1      │
+    └────┴────────┴────────────┘
+
+
+🔑 Komponen Utama Database
+| Komponen        | Penjelasan Singkat                               |
+| --------------- | ------------------------------------------------ |
+| **Database**    | Wadah besar tempat menyimpan semua data          |
+| **Table**       | Seperti **lembar kerja Excel**, berisi data-data |
+| **Row**         | Baris = 1 data lengkap (misal: 1 pengguna)       |
+| **Column**      | Kolom = jenis data (nama, email, dll)            |
+| **Primary Key** | Kolom unik yang jadi identitas tiap data         |
+| **Foreign Key** | Kolom yang menghubungkan tabel lain              |
+
+
+🧠 Intinya:
+Database = Tempat nyimpen data
+
+Table = Tempat nyimpen kategori data
+
+Row = 1 data utuh
+
+Column = Properti dari data
+
+
+Tabel: Users
+
+┌────┬────────────┬────────────────────┐
+│ ID │ Nama       │ Email              │
+├────┼────────────┼────────────────────┤
+│ 1  │ Rifqi      │ rifqi@email.com    │ ← Record (1 baris data lengkap)
+│ 2  │ Mikasa     │ mikasa@email.com   │ ← Record
+└────┴────────────┴────────────────────┘
+     ↑          ↑
+   Field      Field
+
+
+
+💾 1. Database Relasional (RDBMS)
+
+
+📌 Pengertian:
+Database yang menyimpan data dalam bentuk tabel (baris dan kolom). Setiap tabel bisa saling terhubung lewat relasi (foreign key).
+
+🛠️ Contoh:
+MySQL
+
+PostgreSQL
+
+SQL Server
+
+SQLite
+
+
+┌──────────────┐
+│   Users      │
+├────┬─────────┤
+│ ID │ Name    │
+├────┼─────────┤
+│ 1  │ Rifqi   │
+│ 2  │ Mikasa  │
+└────┴─────────┘
+
+┌─────────────────────┐
+│   Orders            │
+├────┬────────┬───────┤
+│ ID │ UserID │ Total │
+├────┼────────┼───────┤
+│ 1  │   1    │ 100K  │
+│ 2  │   2    │ 150K  │
+└────┴────────┴───────┘
+
+→ Data **terstruktur** dan bisa **join antar tabel**.
+
+
+✔️ Kelebihan:
+Cocok untuk data kompleks dan konsisten
+
+Relasi antar tabel kuat
+
+Validasi dan integritas data terjaga
+
+
+📦 2. Database Non-Relasional (NoSQL)
+📌 Pengertian:
+Database yang tidak menggunakan tabel. Menyimpan data dalam format dokumen, key-value, graph, atau column-based. Struktur lebih fleksibel.
+
+🛠️ Contoh:
+MongoDB (Document)
+
+Redis (Key-Value)
+
+Cassandra (Column)
+
+Neo4j (Graph)
+
+🧱 Struktur Virtual (Contoh: MongoDB)
+
+{
+  "name": "Rifqi",
+  "email": "rifqi@email.com",
+  "orders": [
+    { "order_id": 1, "total": 100000 },
+    { "order_id": 2, "total": 150000 }
+  ]
+}
+
+→ Semua data 1 user ada dalam 1 dokumen.
+→ Tidak perlu JOIN antar tabel.
+
+
+✔️ Kelebihan:
+Lebih fleksibel (nggak harus ada skema tetap)
+
+Cepat untuk data besar dan tidak terstruktur
+
+Cocok untuk aplikasi real-time (chat, IoT, dsb.)
+
+
+
+🔁 Tabel Perbandingan
+
+| Aspek             | Relasional (SQL)       | Non-Relasional (NoSQL)   |
+| ----------------- | ---------------------- | ------------------------ |
+| Struktur Data     | Tabel (row & column)   | Dokumen / key-value      |
+| Skema             | Tetap (rigid)          | Fleksibel (schema-less)  |
+| Contoh DB         | MySQL, PostgreSQL      | MongoDB, Firebase, Redis |
+| Relasi antar data | Kuat (JOIN)            | Lemah atau tidak ada     |
+| Cocok untuk       | Sistem keuangan, admin | Sosmed, IoT, big data    |
+
+
+📸 Ilustrasi Sederhana
+
+📋 Relasional
+Seperti lemari berisi folder-folder rapi:
+
+[ Users ] ──▶ [ Orders ]
+
+
+📦 Non-Relasional
+Seperti kotak data fleksibel:
+📦 User + Order + Email = 1 dokumen lengkap
+
+
+💾 Apa itu Database Relasi?
+
+Database Relasi adalah database yang mengorganisasi data dalam bentuk tabel-tabel yang saling berhubungan (relasi) melalui kunci-kunci tertentu seperti Primary Key dan Foreign Key.
+
+Intinya:
+Data tidak berdiri sendiri, tapi terkoneksi antar tabel.
+
+Memudahkan pengelolaan data yang kompleks dan terstruktur.
+
+🔑 Penjelasan:
+Primary Key (PK) = Kolom unik di setiap tabel (misal: UserID, ProductID, OrderID).
+
+Foreign Key (FK) = Kolom yang menghubungkan tabel lain (misal: UserID di tabel Orders mengacu ke tabel Users).
+
+Jadi, tabel Orders menyimpan data pesanan yang relasi dengan siapa pemesan dan produk apa yang dibeli.
+
+📊 Visualisasi Relasi
+pgsql
+Copy
+Edit
+
+
+
+Users             Orders                Products
+┌───────┐         ┌────────┐            ┌─────────┐
+│UserID │◀───────▶│ UserID │            │ProductID│
+│Name   │         │ProductID│◀────────▶│Name     │
+└───────┘         └────────┘            └─────────┘
+
+
+
+
