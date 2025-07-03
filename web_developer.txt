@@ -1,0 +1,146 @@
+Web developer adalah seseorang yang bertugas membuat dan mengembangkan website atau aplikasi web agar bisa berjalan dengan baik saat diakses melalui internet.
+
+Jenis-jenis Web Developer:
+Frontend Developer
+Fokus pada bagian yang dilihat dan digunakan langsung oleh pengguna (UI/UX).
+Contoh: tampilan tombol, navigasi, warna, layout, dsb.
+Tools umum: HTML, CSS, JavaScript, React, Vue, dll.
+
+Backend Developer
+Mengurus bagian belakang layar: logika server, database, autentikasi, API, dll.
+Tools umum: PHP (Laravel), Node.js, Python (Django), MySQL, MongoDB, dsb.
+
+Fullstack Developer
+Gabungan frontend dan backend — bisa mengerjakan dua-duanya.
+
+
+Tugas Utama Web Developer:
+Membangun halaman website atau aplikasi web.
+
+Menyambungkan website dengan database.
+
+Memastikan tampilan responsif di berbagai device.
+
+Menyelesaikan error/bug dan menjaga performa web.
+
+Berkolaborasi dengan tim (designer, tester, project manager, dll).
+
+slide
+https://docs.google.com/presentation/d/1JUKqIPjVxdwnTTSykRBgzAAkxk4-Du2E-ExkliIKRsw/edit?slide=id.p#slide=id.p
+
+
+
+
+🔧 Tugas Frontend Developer:
+Membuat struktur halaman web (pakai HTML)
+
+Mendesain tampilan halaman (pakai CSS)
+
+Membuat halaman jadi interaktif (pakai JavaScript)
+
+Membuat tampilan responsif (bisa dibuka di HP, tablet, laptop)
+
+Menghubungkan tampilan dengan data dari backend (pakai API)
+
+Memastikan tampilan sesuai desain (UI/UX)
+
+🧰 Tools dan Teknologi Umum:
+
+| Fungsi           | Contoh Teknologi        |
+| ---------------- | ----------------------- |
+| Struktur halaman | HTML                    |
+| Styling/tampilan | CSS, Sass, Tailwind CSS |
+| Interaktivitas   | JavaScript              |
+| Framework JS     | React, Vue, Angular     |
+| Versi kontrol    | Git, GitHub             |
+| Package manager  | npm, yarn               |
+| Build tools      | Vite, Webpack, Babel    |
+| Testing          | Jest, Cypress, etc.     |
+
+
+🚀 Skill Wajib Frontend Developer:
+Menguasai HTML, CSS, JS
+
+Memahami dasar-dasar desain UI/UX
+
+Bisa menggunakan framework (misal: React)
+
+Familiar dengan Git & GitHub
+
+Mampu konsumsi REST API
+
+Terbiasa debugging lewat DevTools browser
+
+
+🔧 Tugas Backend Developer:
+Membuat dan mengatur database (menyimpan data pengguna, produk, dll)
+
+Mengembangkan API untuk diakses frontend
+
+Menangani autentikasi dan otorisasi (login, registrasi)
+
+Menyimpan dan mengolah data (input dari user)
+
+Mengatur server, keamanan, dan performa aplikasi
+
+Menyambungkan sistem ke layanan pihak ketiga (misal: payment gateway)
+
+
+
+🧰 Tools & Teknologi Backend:
+
+| Fungsi             | Contoh Teknologi                                                      |
+| ------------------ | --------------------------------------------------------------------- |
+| Bahasa Pemrograman | PHP, Python, JavaScript (Node.js), Go, Java                           |
+| Framework          | Laravel (PHP), Express.js (Node), Django (Python), Spring Boot (Java) |
+| Database           | MySQL, PostgreSQL, MongoDB, Redis                                     |
+| Server & Hosting   | Apache, Nginx, Docker, Heroku, VPS                                    |
+| API                | RESTful API, GraphQL                                                  |
+| Autentikasi        | JWT, OAuth2                                                           |
+| Versioning         | Git, GitHub                                                           |
+
+
+
+
+⚙️ Skill Wajib Backend Developer:
+Paham cara kerja client-server
+
+Menguasai minimal 1 bahasa backend (misal: PHP, Node.js)
+
+Bisa membuat dan mengonsumsi API
+
+Mahir dengan SQL & NoSQL database
+
+Tahu soal keamanan web (seperti XSS, SQL Injection)
+
+Familiar dengan Git
+
+Bisa testing dan debugging backend
+
+
+🔁 Perbandingan Frontend vs Backend
+
+
+| Aspek                  | Frontend                  | Backend                  |
+| ---------------------- | ------------------------- | ------------------------ |
+| Fokus                  | Tampilan & interaksi user | Logika & pengolahan data |
+| Tools                  | HTML, CSS, JS, React, dll | PHP, Node.js, DB, API    |
+| Langsung dilihat user? | ✅ Ya                      | ❌ Tidak langsung         |
+| Contoh fitur           | Tampilan form login       | Proses verifikasi login  |
+
+
+
+
+🔄 Tanggung Jawab Full Stack Developer:
+Mendesain UI/UX dan membuatnya dengan HTML, CSS, JavaScript
+
+Membuat dan mengelola API (backend)
+
+Mengatur database
+
+Menangani autentikasi, upload file, validasi input
+
+Deploy aplikasi ke hosting/server
+
+Debugging dari ujung depan sampai ujung belakang 😆
+
