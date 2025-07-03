@@ -1,0 +1,115 @@
+apa itu server ??
+
+Ya, server memang bisa dianggap sebagai tempat (media/wadah) untuk menyimpan berbagai data, file, informasi, dan layanan yang bisa diakses oleh perangkat lain (disebut client, seperti browser kamu).
+
+Jadi, definisi lengkap server:
+Server adalah komputer (atau sistem) yang menyediakan layanan atau informasi kepada komputer lain (client) melalui jaringan.
+Server bisa menyimpan data, menjalankan aplikasi, dan merespon request dari pengguna.
+
+
+slide 
+https://docs.google.com/presentation/d/1kGULEONUl-U3D8x-Nb4N3vILA6QquH6jdU9y0s3IaOU/edit?slide=id.gb2f0319c69_0_353#slide=id.gb2f0319c69_0_353
+
+
+[User/BROWSER]   --->   [INTERNET]   --->   [WEB SERVER]
+    |                                  |
+    | <------------------------------- |
+           Kirim data/respon (HTML, gambar, dsb)
+
+User/BROWSER
+Kamu buka browser (Chrome, Firefox, dsb) dan ketik:
+www.contohwebsite.com
+
+INTERNET (Jaringan)
+Permintaan kamu dikirim melalui internet, lewat berbagai protokol (seperti DNS, HTTP, TCP/IP) menuju alamat IP server tujuan.
+
+WEB SERVER
+Komputer khusus (bisa fisik atau virtual/cloud) yang isinya:
+
+Kode program website (HTML, CSS, JavaScript, PHP, dll)
+
+Database
+
+Asset seperti gambar, video, dll
+
+Server ini membaca permintaanmu, lalu:
+
+Menjalankan kodenya,
+
+Mengambil data yang diminta,
+
+Mengirimkan hasilnya kembali ke browser kamu.
+
+BALIK KE BROWSER
+Browser kamu menerima data (biasanya dalam bentuk HTML) → lalu merender tampilan website ke layar kamu!
+
+JENIS - JENIS SERVER
+- web Server
+- File Server
+- Mail Server
+
+🧠 1. Web Server
+📌 Pengertian:
+Web server adalah perangkat lunak atau perangkat keras yang bertugas menyimpan dan mengirimkan konten website ke pengguna saat diminta lewat browser.
+
+📦 Contoh Web Server:
+Apache
+
+Nginx
+
+LiteSpeed
+
+🧠 2. File Server
+📌 Pengertian:
+File server adalah server yang berfungsi menyimpan, mengelola, dan menyediakan akses ke file dalam jaringan (LAN atau internet). File-nya bisa dokumen, gambar, video, dll.
+
+📦 Contoh File Server:
+Windows File Server (SMB)
+
+Samba
+
+FTP Server
+
+
+🧠 3. Mail Server
+📌 Pengertian:
+Mail server adalah server yang bertugas mengirim, menerima, dan menyimpan email antar pengguna atau sistem secara elektronik.
+
+🔄 Ada dua jenis:
+SMTP Server (Outgoing): Untuk mengirim email.
+
+IMAP/POP3 Server (Incoming): Untuk menerima email.
+
+📦 Contoh Mail Server:
+Microsoft Exchange
+
+Postfix
+
+Zimbra
+
+Gmail (di baliknya ada mail server juga lho)
+
+🔁 Perbedaan Singkat
+
+| Fitur     | Web Server              | File Server                | Mail Server                  |
+| --------- | ----------------------- | -------------------------- | ---------------------------- |
+| Fungsi    | Melayani konten website | Menyimpan & berbagi file   | Kirim & terima email         |
+| Protokol  | HTTP/HTTPS              | SMB, FTP, NFS              | SMTP, POP3, IMAP             |
+| Akses via | Browser                 | File Explorer / FTP client | Mail client (Gmail, Outlook) |
+| Contoh    | Apache, Nginx           | Samba, FTP Server          | Postfix, Gmail               |
+
+
+
+
+🖥️ CLIENT SIDE vs SERVER SIDE
+| 🔍 Aspek          | 🖥️ Client Side                              | 🗄️ Server Side                                     |
+| ----------------- | -------------------------------------------- | --------------------------------------------------- |
+| **Berjalan di**   | Komputer pengguna (browser: Chrome, Firefox) | Server (backend: Laravel, Node.js, PHP, dst)        |
+| **Bahasa Umum**   | HTML, CSS, JavaScript                        | PHP, Python, Node.js, Ruby, Laravel, MySQL          |
+| **Tugas Utama**   | Menampilkan UI, interaksi langsung pengguna  | Memproses data, akses database, kirim respon        |
+| **Contoh Proses** | Validasi form sederhana, animasi tombol      | Login user, simpan data, ambil produk dari database |
+| **Keamanan**      | Tidak aman untuk data sensitif               | Lebih aman untuk logika bisnis dan data penting     |
+| **Akses Data**    | Terbatas, tidak bisa langsung ke database    | Bisa akses database, autentikasi, API, dll          |
+| **Performa**      | Cepat karena lokal (di browser)              | Lebih lambat karena perlu komunikasi jaringan       |
+| **Contoh Tools**  | React, Vue, Angular                          | Laravel, Express.js, Django, Spring Boot            |
+
