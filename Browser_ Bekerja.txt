@@ -1,0 +1,172 @@
+supaya komputer kita bisa menggunakana browser kitra membutuhkan clien said
+
+🖥️ Apa itu Client-Side?
+
+Client-side artinya semua proses atau aktivitas yang terjadi di sisi pengguna (client), biasanya di browser atau perangkat pengguna.
+
+🔍 Contoh:
+Saat kamu klik tombol di website dan muncul animasi, itu client-side.
+
+Saat halaman diubah tanpa reload penuh, itu kerja JavaScript di client-side.
+
+Kalau kamu lihat kode HTML, CSS, dan JavaScript di "View Page Source", itu semua file client-side.
+
+web browser adalah sebuah shofware/ perangkat lunak yg di gunakan untuk menerima dan manyajikan informasi dari intermnet
+
+biasanya hal itu beruapa HTML
+
+bisa juga utk membuka file khusus seperti pdf 
+dan html css dan JavaScript
+
+
+
+Bagaimana cara web browser bekerja dari sisis user
+
+ada penjelasannya di slide
+https://docs.google.com/presentation/d/14CRODtI-4ea-nQONcFKHcDdf5D5yTiFvazCT1go2zCk/edit?slide=id.p#slide=id.p
+
+
+User ➜ Browser ➜ DNS ➜ Server
+                        ⬇
+             Kirim HTML, CSS, JS
+                        ⬇
+               Browser tampilkan halaman
+
+
+1. User mengetik URL atau klik link
+Contoh: kamu ketik https://skilvul.com
+
+2. Browser gunakan DNS untuk cari alamat IP
+Browser tanya ke DNS Server:
+
+“Halo, IP address untuk skilvul.com berapa ya?”
+DNS kasih jawaban misalnya: 104.21.13.123
+
+3. Browser kirim permintaan ke server (HTTP/HTTPS Request)
+Browser pakai protokol HTTP atau HTTPS untuk bilang ke server:
+
+“Saya mau halaman utama dari Skilvul dong!”
+
+4. Server merespons (HTTP Response)
+Server balas dengan file:
+
+HTML (struktur konten)
+
+CSS (tampilan & gaya)
+
+JavaScript (logika & interaksi)
+
+5. Browser mulai rendering
+Browser mulai menerjemahkan kode jadi tampilan nyata:
+
+Proses	Penjelasan
+📄 Parse HTML	         Dibaca dulu strukturnya
+🎨 Apply CSS	         Gaya & desain diterapkan
+⚙️ Jalankan JavaScript	 Logika dan efek dijalankan
+🖼️ Tampilkan di layar	  Hasil akhir muncul ke pengguna
+
+bagaimana cara web browser bekerja dari balik layar
+
+┌────────────┐
+│  1. Input  │ ⇨ User mengetik URL
+└────┬───────┘
+     │
+     ▼
+┌──────────────┐
+│  2. DNS Lookup │ ⇨ URL → Alamat IP
+└────┬─────────┘
+     │
+     ▼
+┌────────────────┐
+│ 3. Kirim Request │ ⇨ Browser kirim HTTP/HTTPS request
+└────┬────────────┘
+     │
+     ▼
+┌────────────────┐
+│ 4. Server Merespons │ ⇨ Kirim file HTML, CSS, JS
+└────┬────────────┘
+     │
+     ▼
+┌───────────────┐
+│ 5. Parsing HTML │ ⇨ Baca struktur halaman
+└────┬──────────┘
+     │
+     ▼
+┌───────────────┐
+│ 6. Construct DOM │ ⇨ Bangun pohon elemen
+└────┬──────────┘
+     │
+     ▼
+┌───────────────┐
+│ 7. Apply CSS   │ ⇨ Gaya & posisi elemen
+└────┬──────────┘
+     │
+     ▼
+┌─────────────────┐
+│ 8. Jalankan JS   │ ⇨ Tambahkan interaksi/logika
+└────┬────────────┘
+     │
+     ▼
+┌────────────────────┐
+│ 9. Render ke layar  │ ⇨ Tampilkan halaman final
+└────────────────────┘
+
+1. User Input URL
+Kamu ketik https://skilvul.com → browser mulai bekerja.
+
+2. DNS Lookup
+Browser cari tahu alamat IP dari domain itu (misalnya 104.21.13.123) lewat DNS server.
+
+3. Kirim HTTP/HTTPS Request
+Browser kirim permintaan ke server:
+
+“Tolong kirim file halaman web untuk alamat ini.”
+
+4. Server Merespons
+Server balas dengan:
+
+index.html (struktur konten)
+
+style.css (desain tampilan)
+
+app.js (logika interaktif)
+
+5. Parsing HTML
+Browser mulai membaca kode HTML baris per baris.
+
+6. Build DOM (Document Object Model)
+Dari HTML yang dibaca, browser bikin struktur pohon yang disebut DOM Tree.
+Ini representasi elemen HTML dalam bentuk objek.
+
+7. Apply CSS
+Browser gabungkan DOM + CSS → menjadi Render Tree
+→ Menentukan tampilan dan posisi elemen.
+
+8. Jalankan JavaScript
+Browser jalankan kode JavaScript untuk menambahkan interaksi (tombol, animasi, validasi, dll.)
+
+9. Render ke Layar
+Browser menggambar halaman ke layar pengguna.
+Kalau ada perubahan, seperti klik atau scroll → browser bisa re-render ulang bagian tertentu
+
+
+Browser engine adalah inti dari web browser tersebut yg merubah html dan kawan2 nya menjadi tampilan yg menarik bagi user
+
+chrome, opera, edge = blink engine
+mozila  = geck engine
+safari = webkit engine
+
+
+HTTP
+adalah sebuah protokol yg dapat membuat request / pemerintaan dari user ke web server
+dan web server menururti
+method get = untuk ambil data
+method post = utk tambah data
+method put = utk edit data
+method delete utk hapus data
+
+di singkat CRUD
+
+
+
+

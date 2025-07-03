@@ -1,0 +1,118 @@
+fasilitas di internet
+
+Internet adalah jaringan global yang menghubungkan jutaan komputer dan perangkat di seluruh dunia untuk saling bertukar informasi dan berkomunikasi.
+
+Secara lebih lengkap:
+
+Singkatnya: Internet = interconnected network (jaringan yang saling terhubung).
+
+Internet memungkinkan kamu mengakses website, mengirim email, menonton video, bermain game online, dan banyak lagi.
+
+Internet bekerja dengan cara mengirimkan data dalam bentuk paket melalui jaringan komputer yang saling terhubung, termasuk menggunakan kabel, satelit, dan sinyal nirkabel (Wi-Fi).
+
+internet memiliki bbrp teknologi seperti TCP / IP apakah itu ??
+
+TCP/IP adalah singkatan dari:
+
+TCP: Transmission Control Protocol
+
+IP: Internet Protocol
+
+TCP (Transmission Control Protocol):
+Mengatur cara surat dikirim dan diterima. Memastikan surat:
+
+Tidak hilang
+
+Tidak tertukar
+
+Tiba dalam urutan yang benar
+
+→ TCP ini ibarat petugas pos yang memastikan paket kamu sampai dengan aman dan lengkap.
+
+🔁 Ilustrasi Nyata:
+Misalnya kamu nonton video YouTube:
+
+IP mengirimkan permintaan ke server YouTube.
+
+TCP membagi video menjadi potongan data kecil (disebut paket).
+
+Paket dikirim ke kamu satu per satu.
+
+TCP di komputer kamu menyusun ulang paket-paket itu jadi video yang bisa ditonton.
+
+
+📦 Kesimpulan:
+TCP/IP adalah otak di balik semua komunikasi internet.
+Tanpa TCP/IP, tidak akan ada email, browsing, media sosial, YouTube, atau layanan online lain.
+
+
+
+Cara kerja Internet
+🌐 CARA KERJA INTERNET – LANGKAH DEMI LANGKAH
+1. Kamu mengetik alamat (URL) di browser
+Misalnya: https://www.youtube.com
+
+2. DNS bekerja 🔍
+DNS (Domain Name System) menerjemahkan www.youtube.com menjadi alamat IP, misalnya: 172.217.0.14.
+
+Anggap saja seperti kamu cari nama orang di buku telepon buat dapat nomor HP-nya.
+
+3. Permintaan dikirim ke server
+Permintaan ini dikirim dari komputermu lewat jaringan menggunakan protokol TCP/IP.
+→ Paket data dikirim menuju server tujuan.
+
+4. Router dan switch mengarahkan data 🚦
+Data itu melewati banyak perangkat jaringan seperti:
+
+Modem & router rumah
+
+ISP (penyedia internet)
+
+Jaringan bawah laut / satelit
+
+Hingga akhirnya sampai ke server YouTube
+
+Ini kayak paket logistik yang dikirim dari kota ke kota sampai ke gudang tujuan.
+
+5. Server memproses permintaan
+Server YouTube membaca permintaanmu, lalu mencari konten yang kamu minta (misalnya video), kemudian mengirimkannya kembali ke kamu lewat jalur yang sama, tapi balik arah.
+
+6. Data diterima & ditampilkan di browser
+Data yang kamu terima dipecah-pecah dalam bentuk paket-paket kecil.
+Lalu disusun ulang oleh komputermu, dan akhirnya tampil jadi halaman web atau video!
+
+
+
+! fasilitasInternet
+
+- E - Mail
+- Ftp
+- WWW(World Wide Web)
+
+
+
+IP 4 vs IP 6
+IP adalah sekumpulan angka yg menunjukkan lokasi website dll
+
+IP 4 sudah habis sehingga muncul IP 6
+
+IP 4 sendiri berkualitas 32 bits atau bisa di bilang sebanyak 4,3 miliyar website telah menggunakan IP 4 ini
+
+sedangkan IP6 ini berkualitas 128 bits dan menggunakan teknologi yg paling mutaakhir sehingga bisa di gunakan oleh segala website
+
+
+IP 4 hanya menggunakan sekumpulan angka 
+sedangkan IP6 menggunakan teknologi hexodesimal yaitu yg menggabungkan antara angka dan huruf
+
+kelebihan IP 6
+seperti memiliki kecepatan routing yg efesien
+kemampuan mobilitas yg lebih tingghi
+dan keamanan yg lebih bagus
+
+! Domain Name Server
+
+DNS adalah sebuah sistem yg menghubungkan domains yg kita butuhkan dengan IP server tersebut
+peran DNS menerjemahkan angka menjadi alamat website yg kita 
+
+link menuju slide
+https://docs.google.com/presentation/d/1p1iIzHUwnBFlEkiGgZisth7n_nRJvpJLr0v6inoWNKY/edit?slide=id.gad5fd47782_1_21#slide=id.gad5fd47782_1_21
