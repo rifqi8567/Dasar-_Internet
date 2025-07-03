@@ -1,0 +1,50 @@
+💡 Perbedaan Web Statis vs Web Dinamis
+
+| 🔍 Aspek        | 🌐 Web Statis                         | ⚙️ Web Dinamis                             |
+| --------------- | ------------------------------------- | ------------------------------------------ |
+| **Konten**      | Tetap, tidak berubah-ubah             | Bisa berubah sesuai data atau user         |
+| **Sumber Data** | Ditulis langsung di file HTML         | Diambil dari database / API                |
+| **Interaksi**   | Tidak bisa interaksi (hanya tampilan) | Bisa interaktif (login, komentar, dll)     |
+| **Update Data** | Harus edit manual kodenya             | Data bisa diubah lewat sistem backend      |
+| **Bahasa**      | HTML, CSS, JavaScript sederhana       | PHP, Laravel, Node.js, React, dsb.         |
+| **Contoh**      | CV Online, Portofolio, Landing Page   | Toko Online, Sosial Media, Dashboard Admin |
+
+1. 🌐 Web Statis (Contoh: Portofolio Pribadi)
+
+┌────────────────────────────┐
+│     index.html             │ ← file statis
+├────────────────────────────┤
+│ Nama: Rifqi                │
+│ Hobi: Coding               │
+│ Kontak: rifqi@email.com    │
+└────────────────────────────┘
+
+→ Saat dibuka semua user melihat HALAMAN YANG SAMA.
+→ Mau ubah data? Harus ubah file HTML langsung.
+
+
+2. ⚙️ Web Dinamis (Contoh: Toko Online)
+
+┌────────────────────────────────────────────┐
+│            shop.simpanyuk.com              │
+├────────────────────────────────────────────┤
+│ Halo Rifqi!                                │ ← ditampilkan dari database
+│ Produk Favoritmu: Laptop, Sepatu           │
+│ Total Belanja: Rp 1.200.000                │
+└────────────────────────────────────────────┘
+
+→ Halaman bisa berbeda-beda tiap user.
+→ Data diambil dari server / database.
+→ Bisa berubah otomatis tanpa ubah kodingan.
+
+
+🔁 Analogi Sederhana:
+
+| Analogi     | Web Statis                         | Web Dinamis                              |
+| ----------- | ---------------------------------- | ---------------------------------------- |
+| **Seperti** | Poster dicetak, tidak bisa diganti | Aplikasi kasir: berubah tergantung input |
+| **Data**    | Tetap                              | Fleksibel dan update otomatis            |
+
+
+slide
+https://docs.google.com/presentation/d/1iGycYC6GYXZeD9H2_2SMAIrnpUzC9VBmmH5kqjQpU-k/edit?slide=id.g7855e24d27_0_0#slide=id.g7855e24d27_0_0
