@@ -1,0 +1,170 @@
+ALGORITMA
+
+adalah langkah2 utk kita agar bisa menyelesaikan suatau masalah yg harus di tulis kan secara berurutan terperinci dan tdk ambigu 
+algotima di tulis harus dengan bahasa yg di pahaami oleh manusia
+
+slide
+https://docs.google.com/presentation/d/1eOjs5GzGB8GJGpob_o5CGv8ELVBZojLgpnwCPJak27w/edit?slide=id.p#slide=id.p
+
+✅ Ciri-ciri Algoritma yang Berkualitas:
+🔍 Jelas dan Tidak Ambigu
+Setiap langkahnya mudah dipahami, tidak membingungkan.
+
+Contoh: “jumlahkan angka A dan B” itu jelas, tapi “proses angka A” itu ambigu.
+
+⏱️ Efisien
+Menggunakan waktu dan sumber daya (memori) seminimal mungkin.
+
+Semakin cepat dan ringan, semakin baik.
+
+🎯 Memiliki Tujuan yang Jelas
+Algoritma harus punya output yang diinginkan dari input tertentu.
+
+Misal: input dua angka → output jumlahnya.
+
+🔁 Berhingga (Terminating)
+Pasti selesai dalam waktu tertentu, tidak jalan terus menerus (bukan infinite loop).
+
+Harus ada akhir yang jelas.
+
+🔄 Terstruktur dan Sistematis
+Langkah-langkahnya runtut, tidak acak-acakan.
+
+Bisa diubah ke dalam bentuk kode program dengan mudah.
+
+♻️ Dapat Digunakan Kembali (Reusable)
+Bisa digunakan untuk berbagai kasus dengan sedikit penyesuaian.
+
+📦 Input dan Output yang Jelas
+Harus tahu apa yang dibutuhkan (input) dan apa hasil akhirnya (output).
+
+Misalnya algoritma menghitung luas persegi panjang:
+
+Langkah:
+
+Input panjang dan lebar
+
+Kalikan panjang × lebar
+
+Tampilkan hasilnya
+
+✔️ Jelas, efisien, punya tujuan, bisa dipakai berulang.
+
+
+🤔 Kenapa Harus Belajar Algoritma?
+Karena algoritma adalah otak dari pemrograman.
+Tanpa algoritma, kode kita cuma sekadar tulisan — nggak punya logika dan arah.
+
+
+
+📌 Pentingnya Algoritma dalam Programming:
+🧠 Membentuk Pola Pikir Logis
+Algoritma melatih kita berpikir terstruktur, sistematis, dan logis.
+
+Kita belajar "bagaimana menyelesaikan masalah", bukan cuma menulis kode.
+
+🚀 Meningkatkan Efisiensi Program
+Algoritma membantu kita bikin solusi yang cepat dan hemat resource (RAM, waktu, dll).
+
+Misalnya: mencari data dari ribuan entri pakai binary search jauh lebih cepat daripada nyari satu-satu (linear search).
+
+🧩 Dasar dari Semua Struktur Data dan Teknologi
+Sorting (mengurutkan), searching (mencari), graph, tree, AI, semuanya berdasar algoritma.
+
+Kalau kamu ngerti algoritma, kamu bisa pahami semua teknologi dengan lebih mudah.
+
+🛠️ Bisa Pecahkan Masalah Apa Pun
+Banyak tantangan pemrograman bukan soal syntax, tapi logika dan strategi penyelesaian masalah.
+
+Contoh: "Gimana caranya ngitung diskon produk paling cepat?" — bukan soal if aja, tapi soal logika.
+
+💼 Skill Wajib untuk Developer Profesional
+Interview kerja di bidang programming selalu ada soal algoritma.
+
+Misalnya: Google, Tokopedia, Gojek, Shopee, dan lainnya.
+
+🔍 Ilustrasi Gampang:
+Kamu bisa ngetik di Word. Tapi apakah kamu bisa bikin Word itu sendiri?
+Jawabannya nggak cukup cuma tahu tools, kamu butuh logika dan algoritma di baliknya.
+
+🧠 Kesimpulan:
+"Ngoding tanpa algoritma ibarat masak tanpa resep. Bisa jadi enak, tapi nggak bisa konsisten dan nggak scalable."
+— Mikasa, 2025 😎
+
+
+
+Pseudocode (dibaca: su-do-kod) adalah cara menuliskan langkah-langkah algoritma menggunakan bahasa sehari-hari yang mirip kode, tapi bukan bahasa pemrograman asli.
+
+Jadi pseudocode itu seperti nulis rencana program, tanpa mikirin syntax yang ribet dulu.
+
+Pseudocode = mirip
+
+
+🧠 Tujuan Pseudocode:
+Buat merancang logika program sebelum dikoding beneran
+
+Lebih mudah dipahami orang lain (terutama yang belum expert ngoding)
+
+Bantu menganalisis alur program dengan fokus ke logika, bukan aturan bahasa pemrograman
+
+🔁 Ciri-ciri Pseudocode:
+Tidak ada aturan baku seperti syntax (boleh pakai Bahasa Indonesia atau Inggris campur kode)
+
+Fokus ke logika dan urutan langkah
+
+Cocok banget untuk mendesain algoritma sebelum implementasi
+
+🤓 Kesimpulan:
+Pseudocode = Blueprint-nya program.
+Sebelum bikin rumah, gambar denah dulu. Sebelum ngoding, tulis pseudocode dulu biar rapi dan logis.
+
+
+
+chat
+
+Mulai
+  Tampilkan "Silakan Masukkan Username dan Password"
+
+  Input username
+  Input password
+
+  Jika username = "admin" DAN password = "1234" Maka
+      Tampilkan "Login Berhasil. Selamat datang, admin!"
+  Jika tidak
+      Tampilkan "Login Gagal. Username atau Password salah"
+  Selesai Jika
+
+Selesai
+
+
+
+
+
+┌────────────┐
+│   Mulai    │
+└────┬───────┘
+     ↓
+┌───────────────────────────┐
+│ Tampilkan form login      │
+└────────────┬──────────────┘
+             ↓
+   ┌──────────────────┐
+   │ Input username    │
+   │ Input password    │
+   └──────┬────────────┘
+          ↓
+┌────────────────────────────────────┐
+│ Apakah username == "admin"        │
+│ DAN password == "1234"?           │
+└──────┬───────────────┬─────────────┘
+       ↓                               ↓
+┌──────────────┐            ┌──────────────────────────┐
+│ Tampilkan:   │            │ Tampilkan:               │
+│ "Login OK"   │            │ "Login Gagal"            │
+└──────┬───────┘            └────────────┬─────────────┘
+       ↓                                ↓
+    ┌──────┐                       ┌────────┐
+    │Selesai│                       │Selesai│
+    └──────┘                       └────────┘
+
+
